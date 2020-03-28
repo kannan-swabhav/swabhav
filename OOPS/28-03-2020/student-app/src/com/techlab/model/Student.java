@@ -4,7 +4,7 @@ public class Student {
 	private int id;
 	private String name;
 	private float cgpa;
-	public static int count;
+	public static int count; //violation of encapsulation , go through video and understand what is neede here
 	
 	static {
 		count = 0;
